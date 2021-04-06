@@ -528,12 +528,13 @@ section {
 }
 
 .about .content p {
+  padding: 20px 30px;
   margin-bottom: 0;
 }
 
 .about .content ul {
   list-style: none;
-  padding: 0;
+  padding-left: 10px;
   margin-top: 20px;
 }
 
