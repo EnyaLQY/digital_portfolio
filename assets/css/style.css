@@ -947,20 +947,40 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 30px;
+  margin: auto;
+}
+
+.portfolio-details .container{
+  display: inline-flex;
+  margin-left: 15%;
+
 }
 
 .portfolio-details .portfolio-details-container {
   position: relative;
+  margin:auto;
+  max-width: 30%;
+
 }
 
 .portfolio-details .portfolio-details-carousel {
   position: relative;
+  max-width: 60%;
+  margin:auto;
   z-index: 1;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
+}
+
+.portfolio-details-container {
+  float: right;
+}
+
+.owl-carousel .portfolio-details-carousel{
+  float: left;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot {
@@ -978,7 +998,6 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  position: absolute;
   right: 0;
   bottom: -70px;
   background: #fff;
@@ -1009,7 +1028,7 @@ section {
 }
 
 .portfolio-details .portfolio-description h2 {
-  width: 50%;
+  width: 90%;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
