@@ -982,12 +982,8 @@ section {
   text-align: left;
 }
 
-.portfolio-details-container {
-  float: right;
-}
-
 .owl-carousel .portfolio-details-carousel{
-  float: left;
+  box-sizing: border-box;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot {
