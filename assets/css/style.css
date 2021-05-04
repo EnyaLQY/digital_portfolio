@@ -528,7 +528,7 @@ section {
 }
 
 .about .content p {
-  padding: 20px 30px;
+  padding: 20px 50px;
   margin-bottom: 0;
 }
 
@@ -543,13 +543,19 @@ section {
 }
 
 .about .content ul i {
-  font-size: 20px;
+  font-size: 35px;
   padding-right: 2px;
   color: #ffb727;
 }
 
 .about .content .count-box {
   width: 100%;
+}
+
+.about .content .count-box ul{
+  list-style: none;
+  padding-left: 60px;
+  font-size: 15px;
 }
 
 .about .content .count-box i {
@@ -565,7 +571,7 @@ section {
   display: block;
   font-weight: 700;
   color: #3b434a;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .about .content .count-box p {
@@ -631,6 +637,8 @@ section {
   transition: .9s;
   background-color: #ffb727;
 }
+
+
 
 /*--------------------------------------------------------------
 # My Resume
