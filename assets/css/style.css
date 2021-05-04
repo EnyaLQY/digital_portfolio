@@ -552,12 +552,6 @@ section {
   width: 100%;
 }
 
-.about .content .count-box ul{
-  list-style: none;
-  padding-left: 60px;
-  font-size: 15px;
-}
-
 .about .content .count-box i {
   display: block;
   font-size: 36px;
@@ -576,8 +570,8 @@ section {
 
 .about .content .count-box p {
   padding: 15px 0 0 0;
-  margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  margin: 0 0 0 35px;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #5d6a75;
 }
