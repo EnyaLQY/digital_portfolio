@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Smart Wheels</title>
+  <title>Portfolio Details - Laura Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -17,17 +17,17 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor_new/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor_new/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor_new/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor_new/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor_new/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style_new.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Laura - v3.0.0
+  * Template Name: Laura - v4.3.0
   * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -37,9 +37,9 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top  d-flex justify-content-center align-items-center ">
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center ">
 
-    <nav class="nav-menu d-none d-lg-block">
+    <nav id="navbar" class="navbar">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="index.html#about">About</a></li>
@@ -47,9 +47,9 @@
         <!-- <li><a href="#services">Services</a></li> -->
         <li class="active"><a href="index.html#portfolio">Portfolio</a></li>
         <li><a href="index.html#contact">Contact</a></li>
-
       </ul>
-    </nav><!-- .nav-menu -->
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
 
   </header><!-- End Header -->
 
@@ -72,39 +72,54 @@
     </section><!-- Breadcrumbs Section -->
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section class="portfolio-details">
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="owl-carousel portfolio-details-carousel">
-          <img src="assets/img/portfolio/smartwheel/smart_wheels1.png" class="img-fluid" alt="">
-          <img src="assets/img/portfolio/smartwheel/smart_wheels2.png" class="img-fluid" alt="">
-        </div>
+        <div class="row gy-4">
 
-        <div class="portfolio-details-container">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
 
-          <div class="portfolio-info">
-            <h3>Project Information</h3>
-            <ul>
-              <li><strong>Category</strong>: Product Design</li>
-              <li><strong>Timeline</strong>: 2019.9 - 2019.12</li>
-              <li><strong>Team members</strong>: 5</li>
-              <li><strong>Position</strong>: Graphic Designer</li>
-              <li><strong>Tools</strong>: Photoshop, Procreate</li>
-              <li><strong>More Info</strong>: <a href="https://docs.google.com/presentation/d/16X2e6wCKDqUifzwJyPI5QZeRrMwYjgXz9l37tWmnivs/edit?usp=sharing">View the presentation</a></li>
-            </ul>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/smartwheel/smart_wheels1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/smartwheel/smart_wheels2.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
 
-          <div class="portfolio-description">
-            <h2>Smart Wheels</h2>
-            <p>
-              Our product, Smart Wheels, aims to minimize the amount of effort and time required to
-move heavy objects over short distances by attaching the wheels to the objects and transporting them via the in-wheel motor system. Users can use the Smart Wheels by sliding them under the heavy object and then by pairing each wheel in use to the smartphone app through Bluetooth. Using the app, the user can activate the wheels simultaneously, which consequently lifts the object into the air and readies it for transport, and control the wheels’ subsequent movements.
-            </p>
-            <p>
-              As the graphic designer in the team, I designed the physical component, prototyped the remote-controlled Smart Wheels and drew storyboards with Photoshop and Procreate.
-              I designed the concepts of the interactivity between the users and the product. I also made contributions to the user research and digital interface design.
-              </p>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Product Design</li>
+                <li><strong>Timeline</strong>: 2019.9 - 2019.12</li>
+                <li><strong>Team members</strong>: 5</li>
+                <li><strong>Position</strong>: Graphic Designer</li>
+                <li><strong>Tools</strong>: Photoshop, Procreate</li>
+                <li><strong>More Info</strong>: <a href="https://docs.google.com/presentation/d/16X2e6wCKDqUifzwJyPI5QZeRrMwYjgXz9l37tWmnivs/edit?usp=sharing">View the presentation</a></li>
+              </ul>
             </div>
+            <div class="portfolio-description">
+              <h2>Smart Wheels</h2>
+              <p>
+                Our product, Smart Wheels, aims to minimize the amount of effort and time required to
+  move heavy objects over short distances by attaching the wheels to the objects and transporting them via the in-wheel motor system. Users can use the Smart Wheels by sliding them under the heavy object and then by pairing each wheel in use to the smartphone app through Bluetooth. Using the app, the user can activate the wheels simultaneously, which consequently lifts the object into the air and readies it for transport, and control the wheels’ subsequent movements.
+              </p>
+              <p>
+                As the graphic designer in the team, I designed the physical component, prototyped the remote-controlled Smart Wheels and drew storyboards with Photoshop and Procreate.
+                I designed the concepts of the interactivity between the users and the product. I also made contributions to the user research and digital interface design.
+                </p>
+            </div>
+          </div>
+
+        </div>
 
       </div>
     </section><!-- End Portfolio Details Section -->
@@ -116,13 +131,13 @@ move heavy objects over short distances by attaching the wheels to the objects a
     <div class="container">
       <h3>Qianya Lin</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <!-- <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+      <div class="social-links">
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div> -->
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      </div>
       <div class="copyright">
         &copy; Copyright <strong><span>Qianya Lin</span></strong>. Design revised by Qianya Lin. All Rights Reserved
       </div>
@@ -136,21 +151,19 @@ move heavy objects over short distances by attaching the wheels to the objects a
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor_new/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor_new/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor_new/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor_new/php-email-form/validate.js"></script>
+  <script src="assets/vendor_new/purecounter/purecounter.js"></script>
+  <script src="assets/vendor_new/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor_new/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main_new.js"></script>
 
 </body>
 
