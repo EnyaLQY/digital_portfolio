@@ -687,6 +687,7 @@ section {
   border: 2px solid #82909c;
 }
 
+
 /*--------------------------------------------------------------
 # My Services
 --------------------------------------------------------------*/
@@ -993,6 +994,19 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.portfolio-details .descrip-section{
+  padding-top: 60px;
+}
+
+.portfolio-details .descrip-section p{
+  padding-top: 20px;
+}
+
+.portfolio-details .descrip-section img{
+  padding-top: 10px;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
