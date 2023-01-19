@@ -352,6 +352,16 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+#hero h6 {
+  color: #eee;
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 #hero .btn-scroll {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
