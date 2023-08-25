@@ -997,7 +997,8 @@ section {
 }
 
 .portfolio-details .descrip-section{
-  padding-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 .portfolio-details .descrip-section p{
